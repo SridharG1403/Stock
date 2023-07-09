@@ -1,0 +1,82 @@
+
+body {
+    background-image: url('green.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: courier, monospace;
+  }
+
+  
+  
+  form {
+    color: #0b1115;
+    font-size: 25px;
+    font-weight: bold;
+    
+  }
+
+  
+  input[type="text"]{
+    background-color : #f1e8e8;
+  }
+  
+  #addNeed {
+    background-color : #f8f8f8;
+    color: #434141;
+    font-weight: bold;
+  }
+  
+  #addHave {
+    background-color : #f8f8f8;
+    color: #434141;
+    font-weight: bold;
+  }
+  
+  h1 {
+    color: #05070a;
+    font-size: 50px;
+  }
+  
+  h2 {
+    color: #060a0e;
+    font-size: 50px;
+    letter-spacing: -2px;
+    text-align: left;
+  }
+  .list {
+    color: #f3eeee;
+    font-size: 22px;
+    padding: 0 !important;
+    width: 500px;
+    border: 1px solid #dedede;
+  }
+  .list li {
+    list-style: none;
+    background-color : #272525;
+    border-bottom: 1px dotted #ccc;
+    text-indent: 25px;
+    height: auto;
+    padding: 10px;
+    text-transform: capitalize;
+    color: #ebebef;
+  }
+  li a {
+    float: right;
+    text-decoration: none;
+    color: red;
+  }
+  
+  @media (-webkit-min-device-pixel-ratio: 2), 
+         (min--moz-device-pixel-ratio: 2),    
+         (min-resolution: 2dppx),             
+         (min-resolution: 192dpi)             
+  {
+      body {
+          background-image: url('green.jpg');
+      }
+  }
+
+
